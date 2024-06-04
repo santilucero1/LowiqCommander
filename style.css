@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
+    font-family: 'Montserrat', sans-serif; /* Aplicar Montserrat a todo el cuerpo */
 }
 
 .circle-container {
@@ -17,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .center-image {
@@ -26,11 +28,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .center-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 50%;
+    
+    
 }
 
 .surrounding-images {
