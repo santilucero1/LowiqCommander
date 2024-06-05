@@ -8,6 +8,27 @@ body {
     font-family: 'Montserrat', sans-serif; /* Aplicar Montserrat a todo el cuerpo */
 }
 
+h1 {
+    text-shadow: 2px 2px 4px rgba(37, 200, 200, 0.505);
+}
+
+.right {
+
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+   
+}
+
+.upperbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;    
+}
+
+
 .circle-container {
     position: relative;
     width: 400px;
